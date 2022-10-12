@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.subtitle{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform:uppercase;
+	margin-bottom: 8px;
+}
+.title{
+	font-size: 46px;
+	font-weight: 900;
+}
+.createx__title {
+	margin-bottom: 40px;
+}
+.courses__title {
+	margin-bottom: 60px;
+}
+.courses__column {
+	border:1px solid black;
+	margin-bottom: 20px;
+	border-radius: 2px;
+
+}
+.courses__item {
+	
+}
+.item {
+	
+}
+.item__img {
+}
+.item__profession {
+	margin-bottom: 20px;
+
+}
+.profession {
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #03CEA4;
+	display: inline-block;
+	color:white;
+	padding: 1px 8px;
+	border-radius: 4px;
+}
+.item__position {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.item__price span {
+	color:#FF4242;
+	font-size: 18px;
+	font-weight: 700;
+}
+.item__price{
+	color:#787A80;
+	font-size: 18px;
+	font-weight: 400;
+}
+.profession--orange{
+	background-color: #F89828;
+}
+.profession--blue{
+	background-color: #5A87FC;
+}
+.profession--red{
+	background-color: #F52F6E;
+}
+.subtitle--center{
+	text-align: center;
+}
+.title--center{
+	text-align: center;
+}
+.benefits__title {
+	margin-bottom: 60px;
+}
+.benefits__text h2{
+	font-size: 32px;
+	font-weight: 900;
+}
+.benefits__blocks{
+	margin-bottom: 60px;
+	
+}
+.benefits__block{
+	display: inline-block;
+}
+.benefits__block:hover{
+	border: 1px solid red;
+	border-radius: 4px;
+	color:red;
+}
